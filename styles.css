@@ -1,0 +1,138 @@
+:root {
+    --monitor-color: rgb(134, 132, 132);
+}
+
+/* header styles */
+
+body {
+    margin: 0;
+    background: rgba(8, 10, 29, 0.928);
+}
+
+main {
+    padding-top: 100px;
+}
+
+header {
+    font-family: Consolas;
+    font-size: 1.4rem;
+}
+
+#navbar {
+    width: 100%;
+    height: 10%;
+    background: rgb(25, 27, 48);
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+#navbar ul {
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(81, 135, 201);
+    display: block;
+}
+
+#navbar ul li:hover {
+    color: rgb(163, 93, 49);
+    font-size: 1.5rem;
+}
+
+li a {
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+}
+
+li a:hover::before {
+    content: "<";
+    position: absolute;
+    left: -12px;
+}
+
+li a:hover::after {
+    content: ">";
+    position: absolute;
+    right: -12px;
+}
+
+/* welcome screen styles */
+
+h1 {
+    top: 20%;
+    position: absolute;
+    font-family: Consolas;
+    font-size: 2.5rem;
+    color: rgb(156, 18, 18);
+}
+
+p {
+    font-family: Consolas;
+    font-size: 1.8rem;
+    color: rgb(163, 93, 49);
+    position: absolute;
+    top: 50%;
+}
+
+#welcome-section {
+    height: 100vh;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screen {
+    width: 60%;
+    padding-top: 34%;
+    border: 5px solid var(--monitor-color);
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.screen-bottom {
+    width: 60%;
+    padding-top: 1%;
+    border: 5px solid var(--monitor-color);
+    background-color: var(--monitor-color);
+    border-radius: 0 0 20px 20px;
+}
+
+.stand1 {
+    width: 8%;
+    padding-top: 4%;
+    background-color: var(--monitor-color);
+}
+
+.stand2 {
+    width: 40%;
+    padding-top: 1.5%;
+    background-color: var(--monitor-color);
+    border-radius: 15px 15px 0 0;
+}
+
+/* projects styles */
+
+#projects {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.project-tile {}
