@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <link href="styles.css" rel="stylesheet">
 </head>
 
@@ -13,9 +14,9 @@
     <header>
         <nav id="navbar">
             <ul>
-                <li><a href="#">about</a></li>
-                <li><a href="#">projects</a></li>
-                <li><a href="#">contacts</a></li>
+                <li><a href="#welcome-section">about</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#profile-link">contacts</a></li>
             </ul>
         </nav>
     </header>
@@ -23,32 +24,58 @@
         <section id="welcome-section">
             <div class="screen">
                 <h1>Hi, I'm Andrii</h1>
-                <p>a novice web developer</p>
+                <p class="text">{ a novice web developer }</p>
             </div>
             <div class="screen-bottom"></div>
             <div class="stand1"></div>
             <div class="stand2"></div>
         </section>
         <section id="projects">
-            <div class="project-tile">
-                <a href="https://andrii1978.github.io/Survey-Form/"><img src="https://github.com/Andrii1978/Personal-Portfolio-Webpage/blob/main/img/SurveyForm.png?raw=true"
-                alt="image of the quote machine project"
+            <figure class="project-tile">
+                <a href="https://andrii1978.github.io/Survey-Form/" target="_blank"><img src="https://github.com/Andrii1978/Personal-Portfolio-Webpage/blob/main/img/SurveyForm.png?raw=true"
+                alt="there should be an image of the web page Survey-Form"
                 loading="lazy"
-                width="500"
-                height="400" /></a>
-            </div>
-            <div class="project-tile">
-                <a href="https://andrii1978.github.io/Tribute-Page/"><img src="https://github.com/Andrii1978/Personal-Portfolio-Webpage/blob/main/img/Tribute%20Page.png?raw=true"
-                alt="image of the quote machine project"
-                loading="lazy"
-                width="500"
-                height="400" /></a>
-            </div>
-            
-            <div class="project-tile">
-            <img src="https://github.com/Andrii1978/Personal-Portfolio-Webpage/blob/main/SurveyForm.png?raw=true"
-                alt="image of the quote machine project" loading="lazy" class="project-tile" width="500" height="400" />
-            </div>
+                width="420"
+                height="320" />
+                <figcaption>Survey form</figcaption>
+            </a>
+            </figure>
+            <figure class="project-tile">
+                <a href="https://andrii1978.github.io/Tribute-Page/" target="_blank"><img src="https://github.com/Andrii1978/Personal-Portfolio-Webpage/blob/main/img/Tribute%20Page.png?raw=true"
+                    alt="there should be an image of the web page Tribute-Page"
+                    loading="lazy"
+                    width="420"
+                    height="320" />
+                    <figcaption>Tribute page</figcaption>
+                </a>
+            </figure>
+            <figure class="project-tile">
+                <a href="https://andrii1978.github.io/Technical-Documentation-Page/" target="_blank"><img src="https://github.com/Andrii1978/Personal-Portfolio-Webpage/blob/main/img/Technical%20Documentation%20Page.png?raw=true"
+                    alt="there should be an image of the web page Technical-Documentation-Page"
+                    loading="lazy"
+                    width="420"
+                    height="320" />
+                    <figcaption>Technical documentation page</figcaption>
+                </a>
+            </figure>
+            <figure class="project-tile">
+                <a href="https://andrii1978.github.io/Product-Landing-Page/" target="_blank"><img src="https://github.com/Andrii1978/Personal-Portfolio-Webpage/blob/main/img/Product-Landing-Page.png?raw=true"
+                    alt="there should be an image of the web page Product-Landing-Page"
+                    loading="lazy"
+                    width="420"
+                    height="320" />
+                    <figcaption>Product landing page</figcaption>
+                </a>
+            </figure>
+        </section>
+        <section id="profile-link">
+            <a href="https://github.com/Andrii1978" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a class="email">
+        </section>
+        <section class="email">
+            <a href="mailto:andrmar14@gmail.com">andrmar14@gmail.com</a>
         </section>
     </main>
 </body>
