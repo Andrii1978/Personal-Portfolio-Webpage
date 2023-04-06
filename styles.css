@@ -160,6 +160,7 @@ h1 {
 /* projects styles */
 
 #projects {
+    width: 100%;
     padding-top: 100px;
     display: grid;
     grid-template-columns: 540px 540px;
