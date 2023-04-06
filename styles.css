@@ -134,6 +134,9 @@ h1 {
     .text {
         font-size: 1.5rem;
     }
+    .screen {
+        width: 80%;
+        }
 }
 
 @media only screen and (max-width: 780px) {
@@ -149,6 +152,7 @@ h1 {
     display: grid;
     grid-template-columns: 540px 540px;
     justify-content: center;
+    align-items: center;
 }
 
 .project-tile {
